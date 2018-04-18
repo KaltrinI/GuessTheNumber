@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
             TextView tr=new TextView(this);
             tr.setTextSize(30);
-            tr.setText(number);
+            tr.setText(String.format("%s   %s  %s",number,txtFix.getText(),txtGuess.getText()));
             sr.addView(tr);
         }
 
